@@ -1,14 +1,20 @@
 [project]
 name = "fys-stk4155-exercises"
 version = "0.1.0"
-description = "Add your description here"
+description = "Solutions to the exercises and assignments provided in the course FYS-STK4155 at the University of Oslo (UiO)"
 readme = "README.md"
 authors = [
     { name = "Sigurd Riseth", email = "sigurd.riseth@gmail.com" }
 ]
 requires-python = ">=3.10"
-dependencies = []
+dependencies = [
+    "ipython>=8.39.0",
+    "matplotlib>=3.10.9",
+    "numpy>=2.2.6",
+    "pandas>=2.3.3",
+    "pillow>=12.3.0",
+    "scikit-learn>=1.7.2",
+    "scipy>=1.15.3",
+    "sympy>=1.14.0",
+]
 
-[build-system]
-requires = ["uv_build>=0.12.5,<0.13.0"]
-build-backend = "uv_build"
