@@ -9,9 +9,6 @@ authors = [
 requires-python = ">=3.10"
 dependencies = []
 
-[project.scripts]
-fys-stk4155-exercises = "fys_stk4155_exercises:main"
-
 [build-system]
 requires = ["uv_build>=0.12.5,<0.13.0"]
 build-backend = "uv_build"
