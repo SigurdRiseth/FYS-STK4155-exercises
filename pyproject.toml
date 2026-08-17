@@ -18,3 +18,8 @@ dependencies = [
     "sympy>=1.14.0",
 ]
 
+[dependency-groups]
+dev = [
+    "jupyterlab>=4.6.3",
+]
+

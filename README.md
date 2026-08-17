@@ -48,3 +48,17 @@ Install the dependencies:
 uv sync
 ```
 
+## Usage
+
+In order to activate the virtual environment, the following command must be ran:
+
+```bash
+venv
+```
+
+In order to run and work with the jupyer notebooks, the following command must be ran:
+
+```bash
+uv run jupyter lab
+```
+
