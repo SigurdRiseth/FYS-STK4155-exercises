@@ -4,59 +4,21 @@ This repository contains the solutions to the exercises and assignments provided
 
 ## Repository structure
 
-The exercises are organized by week in the following way:
-
-```
-FYS-STK4155-exercises/
-├── pyproject.toml
-├── README.md
-│
-├── week34/
-│   ├── README.md
-│   ├── exercise01.ipynb
-│   ├── exercise02.ipynb
-│   └── src/
-│       └── ...
-│
-├── week35/
-│   ├── README.md
-│   ├── exercise01.ipynb
-│   └── src/
-│       └── ...
-│
-├── week36/
-│   └── ...
-│
-└── data/
-    └── ...
-```
-
-Each `weekXX` directory contains the exercises and code for that week.
+Each `weekXX/` directory holds that week's README and solution notebook.
 
 ## Setup
 
 This project uses `uv` for Python environment and dependency management.
 
-Clone the repository:
 ```bash
 git clone https://github.com/SigurdRiseth/FYS-STK4155-exercises.git
 cd FYS-STK4155-exercises
-```
-
-Install the dependencies:
-```bash
 uv sync
 ```
 
 ## Usage
 
-In order to activate the virtual environment, the following command must be ran:
-
-```bash
-venv
-```
-
-In order to run and work with the jupyer notebooks, the following command must be ran:
+Run Jupyter Lab:
 
 ```bash
 uv run jupyter lab
